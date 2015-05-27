@@ -10,8 +10,5 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.addFiles([
     'particleground.js',
-    'export-particleground.js'
     ], 'client');
-
-  api.export('particleground');
 });
